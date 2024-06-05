@@ -6,7 +6,6 @@
 - 🌱 I can build websites with Wordpress
 - 💞️ I’m looking to collaborate on any frontend-related projects
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GiftedNathan)](https://github.com/anuraghazra/github-readme-stats)
 
 ## 🛠 Skills
 
