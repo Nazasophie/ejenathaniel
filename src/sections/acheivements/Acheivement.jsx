@@ -12,7 +12,7 @@ const Ideas = () => {
             </div>
             <div className="acheivement">
                 <i className="fas fa-project-diagram "></i>
-                <h3 className="acheivement-figue">31</h3>
+                <h3 className="acheivement-figue">7</h3>
                 <p className="acheivement-text">projects</p>
             </div>
             <div className="acheivement">
@@ -27,8 +27,8 @@ const Ideas = () => {
             </div>
             <div className="acheivement">
                 <i className="fas fa-lightbulb "></i>
-                <h3 className="acheivement-figue">54</h3>
-                <p className="acheivement-text">crazy ideas</p>
+                <h3 className="acheivement-figue">5</h3>
+                <p className="acheivement-text">Certificate issuance</p>
             </div>
         </div>
     )

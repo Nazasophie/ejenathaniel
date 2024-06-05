@@ -13,8 +13,7 @@ const Footer = () => {
                         where to find me
                     </p>
                     <p className="footer-text">
-                        s3/13 hudco quarters north bank, makurdi
-                        benue
+                       Lagos Ikeja
                     </p>
                 </div>
                 <div className="footer-item">
@@ -23,8 +22,8 @@ const Footer = () => {
                         email me at
                     </p>
                     <p className="footer-text footer-email">
-                        eje.nathaniel@gmail.com
-                        eje.nathaniel@yahoo.com
+                        chinazasundaygoodness@gmail.com
+                        
                     </p>
                 </div>
                 <div className="footer-item">
@@ -33,7 +32,7 @@ const Footer = () => {
                         call me at
                     </p>
                     <p className="footer-text">
-                        phone: (+234) 810 38722 83
+                        phone: (+234) 810 80746 79
                     </p>
                 </div>
             </div>
@@ -41,7 +40,7 @@ const Footer = () => {
             <Links />
 
             <p className="copy-right">
-                &copy; Eje Nathaniel 2023
+                &copy; Chinaza Sunday 2023
                 - Built with much love.
             </p>
 

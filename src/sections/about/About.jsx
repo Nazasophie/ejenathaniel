@@ -6,7 +6,7 @@ import '../../fontawesome/css/all.min.css'
 import { FcBusinessman, FcCalendar, FcBriefcase, FcWebcam, FcDownload, FcManager } from 'react-icons/fc'
 import { MdMail } from 'react-icons/md'
 import { FaHandshake, FaScrewdriver } from 'react-icons/fa'
-import cv from '../../cv/Resume-Nathaniel-Eje.pdf'
+import cv from '../../cv/ChinazaSunday.pdf'
 
 
 const About = ({ title, subtitle, note, profile, skills }) => {
@@ -17,7 +17,7 @@ const About = ({ title, subtitle, note, profile, skills }) => {
     const onDownloadClick = () => {
      
         // using Java Script method to get PDF file
-        fetch("../../cv/Resume-Nathaniel-Eje.pdf").then((response) => {
+        fetch("../../cv/ChinazaSunday.pdf").then((response) => {
             response.blob().then((blob) => {
              
                 // Creating new object of PDF file
@@ -27,11 +27,11 @@ const About = ({ title, subtitle, note, profile, skills }) => {
                 // Setting various property values
                 let alink = document.createElement("a");
                 alink.href = fileURL;
-                alink.download = "Resume-Nathaniel-Eje.pdf";
+                alink.download = "ChinazaSunday.pdf";
                 alink.click();
             });
         });
-    };
+    }; 
 
     return (
         <section className="about-section " id="about">
@@ -46,7 +46,7 @@ const About = ({ title, subtitle, note, profile, skills }) => {
                     <div className="profile-content">
                         <div className="profile-item">
                             <h4><FcBusinessman /> full name</h4>
-                            <p>eje nathaniel akenyi</p>
+                            <p>Chinaza Sunday Goodness</p>
                         </div>
                         {/* <div className="profile-item">
                             <h4> <FcCalendar /> date of birth</h4>
@@ -58,13 +58,13 @@ const About = ({ title, subtitle, note, profile, skills }) => {
                         </div>
                         <div className="profile-item web">
                             <h4><MdMail /> email</h4>
-                            <p>eje.nathaniel@gmail.com</p>
+                            <p>chinazasundaygoodness@gmail.com</p>
                         </div>
-                        <div className="profile-item web">
+                        {/* <div className="profile-item web">
                             <h4><FcWebcam /> website</h4>
-                            <p><a href='https://ejenathaniel.netlify.app/' rel="noreferrer">www.ejenathaniel.netlify.app</a></p>
+                          <p><a href='https://ejenathaniel.netlify.app/' rel="noreferrer">www.ejenathaniel.netlify.app</a></p> 
 
-                        </div>
+                    </div>*/}
 
 
                     </div>
@@ -92,7 +92,7 @@ const About = ({ title, subtitle, note, profile, skills }) => {
             </div>
 
             <div className="about-buttons">
-                <a href={cv} className="button float" download="Resume-Nathaniel-Eje">Curiculum Vitae {downloadIcon}</a>
+                <a href={cv} className="button float" download="Resume-Chinaza Sunday">Curiculum Vitae {downloadIcon}</a>
                              
                 <a href="#contact" className="button float">Hire me {hireMeIcon}</a>
             </div>
@@ -103,9 +103,9 @@ const About = ({ title, subtitle, note, profile, skills }) => {
 About.defaultProps = {
     title: 'about',
     subtitle: 'Let me introduce myself',
-    note: 'I am a web developer passionate about web design, development, and interaction. I have good experience building scalable, responsive, and high-quality applications, and I can collaborate even from a remote location. I am an organized and trustworthy employee seeking a new position where I can use my skills while also learning and improving my experience.',
-    profile: 'A computer science graduate with strong and various backgrounds in software development, programming, computer architecture, operating systems, and data structures, as well as high honors in undergraduate studies and good communication and time management skill sets.',
-    skills: 'JavaScript, PHP, SCSS, WordPress, ReactJs, React Native, Bootstrap, CodeIgniter, and Laravel are all skills I have.',
+    note: 'I am a highly skilled software engineer with a major in front-end development and expertise in UI/UX design. With 3 years of experience',
+    profile: ' My passion is to deliver exceptional digital experiences through seamless and visually appealing interfaces',
+    skills: 'HTML, CSS, SCSS, WordPress, ReactJs, React Native, JavaScript,  are all skills I have.',
 
 }
 

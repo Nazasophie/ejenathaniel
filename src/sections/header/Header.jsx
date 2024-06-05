@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import './header.css'
 import Navbar from './Navbar'
-import Logo from '../../assets/logo/logo-nath-white.png'
+
 
 
 
@@ -27,7 +27,7 @@ const Header = ({ logo }) => {
 
     return (
         <header className="header bg-gradient-open">
-            <a className="logo" href="/"> <img src={Logo} className="site-logo" alt="logo" /> </a>
+            <h1>Chinaza Sunday</h1>
             <Navbar />
             {showMenu ? '' : menu}
             <button className="menu-icon" onClick={toggleMenu}>---</button>

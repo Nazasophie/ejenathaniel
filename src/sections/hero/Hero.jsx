@@ -4,7 +4,7 @@ import Button from '../../components/button/Button'
 import React from 'react'
 import Typed from 'typed.js'
 import { FaArrowCircleDown } from 'react-icons/fa'
-import Logo from '../../assets/logo/logo-nath-white.png'
+
 
 
 
@@ -23,13 +23,13 @@ const Hero = ({ name, designation, greeting }) => {
       strings: [
         'Frontend Developer',
         'WordPress Web Desinger',
-        'Frontend Developer',
+        'Technical Writer',
         'Web Designer',
         'Good with ReactJs',
         'Friends with CSS',
-        'Lover of WordPress',
+        'UI/UX Designer',
         'Clean Codes',
-        'Thinks Differently',
+        'Do Hard Things',
       ],
       typeSpeed: 80,
       backSpeed: 80,
@@ -56,7 +56,8 @@ const Hero = ({ name, designation, greeting }) => {
       <div className="hero-section-content">
         <p>{greeting}</p>
         <h1 className="">Work with <span  >{'<'}  {name} {'/>'} </span> </h1>
-        <img src={Logo} className="hero-image" alt="hero" />
+        <h1 className='name'>Chinaza Sunday</h1>
+
         <div className="designation">
           <span className="typed-cursor">[</span>
           <h3 ref={el}>{designation}</h3>
@@ -71,7 +72,7 @@ const Hero = ({ name, designation, greeting }) => {
 }
 
 Hero.defaultProps = {
-  name: 'NathanEje',
+  name: 'Chinaza Sunday',
   designation: 'Frontend Developer',
   greeting: 'hello world'
 }

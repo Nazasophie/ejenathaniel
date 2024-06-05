@@ -31,7 +31,7 @@ const App = () => {
       <Ideas />
       <Contact />
       <Footer />
-      <a href="https://wa.me/2348103872283" className='whatsapp-icon-container float'>
+      <a href="https://wa.me/2348108074679" className='whatsapp-icon-container float'>
         <FaWhatsapp className='whatsapp-icon' />
       </a>
     </div>
